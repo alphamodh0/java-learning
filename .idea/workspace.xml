@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9fb1a79-a534-4c35-9a89-dbbcab2b4377" name="Changes" comment="Implement UI and make it native look" />
+    <list default="true" id="b9fb1a79-a534-4c35-9a89-dbbcab2b4377" name="Changes" comment="Implement UI and make it native look">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "alphamodh0"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/alphamodh0/java-learning.git",
+    "accountId": "c39ebdf3-9087-4d75-88b3-9a55a6c9a1b8"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://D:/Programas/Windows/Programación/openjdk-22.0.1_windows-x64_bin/jdk-22.0.1/lib/src.zip!/java.base/java/lang/ref/Reference.java" root0="SKIP_INSPECTION" />
   </component>
@@ -134,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719799478927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implement UI and make it native look">
+      <option name="closed" value="true" />
+      <created>1719799818612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719799818612</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implement UI and make it native look">
+      <option name="closed" value="true" />
+      <created>1719800452630</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719800452630</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
