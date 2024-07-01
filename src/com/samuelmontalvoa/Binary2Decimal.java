@@ -1,20 +1,24 @@
 package com.samuelmontalvoa;
 
-import javax.swing.*;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Binary2Decimal {
-    public static void main(String[] args) {
+    public static void main() {
         try {
 
-            // Make native Windows the default theme for the app
-            UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
-
-            String binary = JOptionPane.showInputDialog(null, "Write a binary number: ");
+            Scanner in = new Scanner(System.in);
+            System.out.print("Write a binary number: ");
+            String binary = in.nextLine();
 
             while (hasInvalidChar(binary)) {
-                JOptionPane.showMessageDialog(null, "You cannot input invalid characters like " +
+                System.out.println("You cannot input invalid characters like " +
                         "letter or numbers different than 1 or 0!");
-                binary = JOptionPane.showInputDialog(null, "Write a binary number: ");
+                System.out.print("Write a binary number: ");
+                binary = in.nextLine();
             }
 
             int decimal = 0;
@@ -28,13 +32,13 @@ public class Binary2Decimal {
                 }
             }
 
-            JOptionPane.showMessageDialog(null, "Your decimal value is " + decimal);
+            System.out.printf("Your decimal value is %,d", decimal);
         } catch (Exception e) {
-            e.printStackTrace();
+            Logger.getLogger(Binary2Decimal.class.getName()).log(Level.SEVERE, "Exception occurred", e);
         }
-    }
 
-    public static boolean hasInvalidChar(String string) {
+    }
+    public static boolean hasInvalidChar(@NotNull String string) {
         boolean invalidChar = false;
 
         for (int i = 0; i < string.length(); i++) {
@@ -45,3 +49,6 @@ public class Binary2Decimal {
         return invalidChar;
     }
 }
+
+
+
