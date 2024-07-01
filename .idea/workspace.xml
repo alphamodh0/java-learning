@@ -9,16 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9fb1a79-a534-4c35-9a89-dbbcab2b4377" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/HelloWorld_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HelloWorld.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samuelmontalvoa/Binary2Decimal.java" afterDir="false" />
+    <list default="true" id="b9fb1a79-a534-4c35-9a89-dbbcab2b4377" name="Changes" comment="Added functionality and made reconstruction to implement input validation.">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Binary2Decimal_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/HelloWorld_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Binary2Decimal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samuelmontalvoa/Binary2Decimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samuelmontalvoa/Binary2Decimal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,7 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -53,10 +52,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Binary2Decimal.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.Main.executor": "Run",
     "Attach to process.pid 10992.executor": "ProcessAttachDebug",
     "Downloaded.Files.Path.Enabled": "false",
+    "JAR Application.HelloWorld.jar.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -69,9 +71,9 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,10 +84,10 @@
       <recent name="com.samuelmontalvoa" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Binary2Decimal">
     <configuration name="Binary2Decimal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samuelmontalvoa.Binary2Decimal" />
-      <module name="HelloWorld" />
+      <module name="Binary2Decimal" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.samuelmontalvoa.*" />
@@ -96,9 +98,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloWorld.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/HelloWorld_jar/HelloWorld.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Binary2Decimal" />
+        <item itemvalue="JAR Application.HelloWorld.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -111,10 +118,37 @@
       <option name="presentableId" value="Default" />
       <updated>1719266453544</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added functionality and made reconstruction to implement input validation.">
+      <option name="closed" value="true" />
+      <created>1719783885165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719783885165</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added functionality and made reconstruction to implement input validation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functionality and made reconstruction to implement input validation." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$HelloWorld.ic" NAME="HelloWorld Coverage Results" MODIFIED="1719371940536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.samuelmontalvoa.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/HelloWorld$Binary2Decimal.ic" NAME="Binary2Decimal Coverage Results" MODIFIED="1719789342722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>com.samuelmontalvoa.*</FILTER>
     </SUITE>
   </component>

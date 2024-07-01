@@ -1,37 +1,41 @@
 package com.samuelmontalvoa;
 
-import org.jetbrains.annotations.NotNull;
-
-import java.util.Scanner;
+import javax.swing.*;
+import javax.swing.plaf.ColorUIResource;
 
 public class Binary2Decimal {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        try {
 
-        System.out.print("Write a binary number: ");
-        String binary = in.nextLine();
+            // Make native Windows the default theme for the app
+            UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
 
-       while (hasInvalidChar(binary)){
-            System.out.println("You cannot input invalid characters like letter or numbers different than 1 or 0!");
-           System.out.print("Write a binary number: ");
-            binary = in.nextLine();
-        }
+            String binary = JOptionPane.showInputDialog(null, "Write a binary number: ");
 
-        int decimal = 0;
-
-        for (int i = 0; i < binary.length(); i++) {
-            char character = binary.charAt(i);
-            if (character == '1') {
-                decimal = decimal * 2 + 1;
-            } else if (character == '0') {
-                decimal = decimal * 2;
+            while (hasInvalidChar(binary)) {
+                JOptionPane.showMessageDialog(null, "You cannot input invalid characters like " +
+                        "letter or numbers different than 1 or 0!");
+                binary = JOptionPane.showInputDialog(null, "Write a binary number: ");
             }
-        }
 
-        System.out.printf("Your decimal value is %,d", decimal);
+            int decimal = 0;
+
+            for (int i = 0; i < binary.length(); i++) {
+                char character = binary.charAt(i);
+                if (character == '1') {
+                    decimal = decimal * 2 + 1;
+                } else if (character == '0') {
+                    decimal = decimal * 2;
+                }
+            }
+
+            JOptionPane.showMessageDialog(null, "Your decimal value is " + decimal);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    public static boolean hasInvalidChar(@NotNull String string){
+    public static boolean hasInvalidChar(String string) {
         boolean invalidChar = false;
 
         for (int i = 0; i < string.length(); i++) {

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Binary2Decimal:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Binary2Decimal_jar</output-path>
+    <root id="archive" name="Binary2Decimal.jar">
+      <element id="module-output" name="Binary2Decimal" />
+    </root>
+  </artifact>
+</component>
