@@ -1,7 +1,6 @@
 package com.samuelmontalvoa;
 
 import javax.swing.*;
-import javax.swing.plaf.ColorUIResource;
 
 public class Binary2Decimal {
     public static void main(String[] args) {

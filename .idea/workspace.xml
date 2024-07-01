@@ -9,13 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9fb1a79-a534-4c35-9a89-dbbcab2b4377" name="Changes" comment="Added functionality and made reconstruction to implement input validation.">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Binary2Decimal_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/HelloWorld_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Binary2Decimal.iml" afterDir="false" />
+    <list default="true" id="b9fb1a79-a534-4c35-9a89-dbbcab2b4377" name="Changes" comment="Implement UI and make it native look">
       <change beforePath="$PROJECT_DIR$/src/com/samuelmontalvoa/Binary2Decimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samuelmontalvoa/Binary2Decimal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719783885165</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implement UI and make it native look">
+      <option name="closed" value="true" />
+      <created>1719799374266</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719799374266</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,7 +144,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added functionality and made reconstruction to implement input validation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added functionality and made reconstruction to implement input validation." />
+    <MESSAGE value="Implement UI and make it native look" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement UI and make it native look" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HelloWorld$HelloWorld.ic" NAME="HelloWorld Coverage Results" MODIFIED="1719371940536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
